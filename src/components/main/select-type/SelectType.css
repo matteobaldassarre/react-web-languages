@@ -1,0 +1,7 @@
+main .select-type {
+    padding: 5px 20px 5px 0px;
+    border-radius: 5px;
+    margin-left: 20px;
+} main .select-type:focus {
+    outline: none;
+}
