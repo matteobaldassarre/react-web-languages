@@ -21,3 +21,21 @@
     width: 150px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1000px) {
+    .language-card {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .language-card {
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .language-card {
+        width: calc(100% - 20px);
+    }
+}
